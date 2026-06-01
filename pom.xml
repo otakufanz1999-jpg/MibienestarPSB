@@ -15,18 +15,10 @@
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 
 	<dependencies>
-	
-	<dependency>
-	    <groupId>org.springframework.boot</groupId>
-	    <artifactId>spring-boot-starter-parent</artifactId>
-	    <version>3.2.3</version> <!--  Aquí cambia la versión -->
-	    <type>pom</type>
-	    <scope>import</scope>
-	</dependency>
 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -70,11 +62,6 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency>
-	      <groupId>org.mariadb.jdbc</groupId>
-	      <artifactId>mariadb-java-client</artifactId>
-	      <scope>runtime</scope>
-	    </dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
